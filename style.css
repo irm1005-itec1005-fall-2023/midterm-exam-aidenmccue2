@@ -34,4 +34,52 @@ html {
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+  background: rgb(237,224,212);
+  background: linear-gradient(90deg, rgba(237,224,212,1) 0%, rgba(221,184,146,1) 100%); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.image {
+  margin-bottom: 2rem;
+  width: 400px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.container {
+  width: 400px;
+  background-color: #B08968;
+  border-radius: 10px;
+  padding-bottom: 10px;
+}
+.cardtext {
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-bottom: 5px;
+}
+.price {
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #7F5539;
+  font-size: 3rem;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #9C6644; 
+  border: none;
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  border-radius: 20px;
+  height: 50px;
+}
+
+.btn:hover {
+  background-color: #7F5539; 
+  color: white;
 }
