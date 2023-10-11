@@ -47,9 +47,14 @@ body {
   width: 400px;
   height: 200px;
   object-fit: cover;
-  border-radius: 10%;
+  border-radius: 10px;
 }
 .container {
+  width: 400px;
   background-color: #B08968;
   border-radius: 10px;
+}
+.cardtext {
+  margin-left: 10px;
+  margin-right: 10px;
 }
