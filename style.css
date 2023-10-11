@@ -58,3 +58,24 @@ body {
   margin-left: 10px;
   margin-right: 10px;
 }
+.price {
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #7F5539;
+  font-size: 3rem;
+}
+.btn {
+  background-color: #9C6644; /* Green */
+  border: none;
+  color: white;
+  padding: 30px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.btn:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
