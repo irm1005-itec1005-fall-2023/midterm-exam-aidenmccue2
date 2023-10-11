@@ -53,12 +53,12 @@ body {
   width: 400px;
   background-color: #B08968;
   border-radius: 10px;
-  padding-bottom: 15px;
+  padding-bottom: 10px;
 }
 .cardtext {
   margin-left: 10px;
   margin-right: 10px;
-  padding-bottom: px;
+  padding-bottom: 5px;
 }
 .price {
   margin-left: 10px;
